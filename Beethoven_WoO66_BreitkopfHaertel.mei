@@ -670,7 +670,7 @@
                <scoreDef xml:id="ssr9nft2">
                   <keySig xml:id="kfxfj2m1" sig="3s"/>
                   <meterSig xml:id="mdpi18x1" count="2" unit="4"/>
-                  <staffGrp xml:id="s1pi33e1" bar.thru="false">
+                  <staffGrp xml:id="s1pi33e1" bar.thru="true">
                      <grpSym xml:id="ggq1vys2" symbol="brace"/>
                      <label xml:id="lp1j1ok2"><rend fontsize="large" fontweight="bold">Tema</rend></label>
                      <staffDef xml:id="s4627ry1" lines="5" n="1">
@@ -1889,7 +1889,7 @@
                <scoreDef xml:id="s1gi09r2">
                   <keySig xml:id="kar7d55" sig="3s"/>
                   <meterSig xml:id="m6qbgs31" count="2" unit="4"/>
-                  <staffGrp xml:id="sd2a5uz2" bar.thru="false">
+                  <staffGrp xml:id="sd2a5uz2" bar.thru="true">
                      <grpSym xml:id="g8e2d8t2" symbol="brace"/>
                      <label xml:id="l5ekdf3"><rend fontsize="large" fontweight="bold">Var. I</rend></label>
                      <staffDef xml:id="syfo3qt2" lines="5" n="1">
@@ -3131,7 +3131,7 @@
                <scoreDef xml:id="swvpo3s2">
                   <keySig xml:id="kjh2ewy1" sig="3s"/>
                   <meterSig xml:id="mx3ei1s1" count="2" unit="4"/>
-                  <staffGrp xml:id="s6cyd9y2" bar.thru="false">
+                  <staffGrp xml:id="s6cyd9y2" bar.thru="true">
                      <grpSym xml:id="gpn6oui2" symbol="brace"/>
                      <label xml:id="l85nhnj1"><rend fontsize="large" fontweight="bold">Var. II</rend></label>
                      <staffDef xml:id="stgsvyq2" lines="5" n="1">
@@ -4387,7 +4387,7 @@
                <scoreDef xml:id="s3vvqwb">
                   <keySig xml:id="kifpo19" sig="3s"/>
                   <meterSig xml:id="mh2pgpq2" count="2" unit="4"/>
-                  <staffGrp xml:id="sdrq9z51" bar.thru="false">
+                  <staffGrp xml:id="sdrq9z51" bar.thru="true">
                      <grpSym xml:id="g8ml9za1" symbol="brace"/>
                      <label xml:id="l5qo9sc1"><rend fontsize="large" fontweight="bold">Var. III</rend></label>
                      <staffDef xml:id="sdadstm2" lines="5" n="1">
@@ -5656,7 +5656,7 @@
                <scoreDef xml:id="s81caha1">
                   <keySig xml:id="kw47tze1" sig="3s"/>
                   <meterSig xml:id="mi6vvto1" count="2" unit="4"/>
-                  <staffGrp xml:id="spph4mb1" bar.thru="false">
+                  <staffGrp xml:id="spph4mb1" bar.thru="true">
                      <grpSym xml:id="g9cunza" symbol="brace"/>
                      <label xml:id="l1ys06f"><rend fontsize="large" fontweight="bold">Var. IV</rend></label>
                      <staffDef xml:id="s6i6nlj1" lines="5" n="1">
@@ -6957,7 +6957,7 @@
                <scoreDef xml:id="svdvmev2">
                   <keySig xml:id="kkdzkal1" sig="3s"/>
                   <meterSig xml:id="mcrhc2r1" count="2" unit="4"/>
-                  <staffGrp xml:id="szn1x7o2" bar.thru="false">
+                  <staffGrp xml:id="szn1x7o2" bar.thru="true">
                      <grpSym xml:id="gvufn44" symbol="brace"/>
                      <label xml:id="leatcvs1"><rend fontsize="large" fontweight="bold">Var. V</rend></label>
                      <staffDef xml:id="sbt775l1" lines="5" n="1">
@@ -8410,7 +8410,7 @@
                <scoreDef xml:id="s8ayzee">
                   <keySig xml:id="krrfvww1" sig="0"/>
                   <meterSig xml:id="mexvv6j2" count="2" unit="4"/>
-                  <staffGrp xml:id="sb0hoqj2" bar.thru="false">
+                  <staffGrp xml:id="sb0hoqj2" bar.thru="true">
                      <grpSym xml:id="gyqwnux1" symbol="brace"/>
                      <label xml:id="lq5mx47"><rend fontsize="large" fontweight="bold">Var. VI</rend></label>
                      <staffDef xml:id="swda11f1" lines="5" n="1">
@@ -9441,7 +9441,7 @@
                <scoreDef xml:id="spa20yq1">
                   <keySig xml:id="k1e1tbm2" sig="3s"/>
                   <meterSig xml:id="m84pgsu1" count="6" unit="8"/>
-                  <staffGrp xml:id="s5fki5c1" bar.thru="false">
+                  <staffGrp xml:id="s5fki5c1" bar.thru="true">
                      <grpSym xml:id="ghbjib41" symbol="brace"/>
                      <label xml:id="loq6ln4"><rend fontsize="large" fontweight="bold">Var. VII</rend></label>
                      <staffDef xml:id="st2jz7d" lines="5" n="1">
@@ -10822,7 +10822,7 @@
                <scoreDef xml:id="suctsot1">
                   <keySig xml:id="khrle64" sig="3s"/>
                   <meterSig xml:id="mpn2vpd" count="2" unit="4"/>
-                  <staffGrp xml:id="s3h1wi71" bar.thru="false">
+                  <staffGrp xml:id="s3h1wi71" bar.thru="true">
                      <grpSym xml:id="gzhpar41" symbol="brace"/>
                      <label xml:id="lqhqd9i2"><rend fontsize="large" fontweight="bold">Var. VIII</rend></label>
                      <staffDef xml:id="sk9ar3t1" lines="5" n="1">
@@ -11973,7 +11973,7 @@
                <scoreDef xml:id="sxoepe31">
                   <keySig xml:id="kmpizqr1" sig="3s"/>
                   <meterSig xml:id="mntlb5f" count="2" unit="4"/>
-                  <staffGrp xml:id="sp2u6jf" bar.thru="false">
+                  <staffGrp xml:id="sp2u6jf" bar.thru="true">
                      <grpSym xml:id="g03n9wx2" symbol="brace"/>
                      <label xml:id="lhdj9ek2"><rend fontsize="large" fontweight="bold">Var. IX</rend></label>
                      <staffDef xml:id="sbnevek2" lines="5" n="1">
@@ -13222,7 +13222,7 @@
                <scoreDef xml:id="sbluha01">
                   <keySig xml:id="ksury7r1" sig="3s"/>
                   <meterSig xml:id="m0654va" count="2" unit="4"/>
-                  <staffGrp xml:id="saw8int1" bar.thru="false">
+                  <staffGrp xml:id="saw8int1" bar.thru="true">
                      <grpSym xml:id="g09pw2r1" symbol="brace"/>
                      <label xml:id="lrhnfpm1"><rend fontsize="large" fontweight="bold">Var. X</rend></label>
                      <staffDef xml:id="s00dxyc" lines="5" n="1">
@@ -14507,7 +14507,7 @@
                <scoreDef xml:id="sy9x55x2">
                   <keySig xml:id="ktfkmzx1" sig="3s"/>
                   <meterSig xml:id="mxc445a1" count="6" unit="8"/>
-                  <staffGrp xml:id="ss4rn4h" bar.thru="false">
+                  <staffGrp xml:id="ss4rn4h" bar.thru="true">
                      <grpSym xml:id="g76hr0g1" symbol="brace"/>
                      <label xml:id="lnezrj9"><rend fontsize="large" fontweight="bold">Var. XI</rend></label>
                      <staffDef xml:id="s7nf8a11" lines="5" n="1">
@@ -15968,7 +15968,7 @@
                <scoreDef xml:id="skcx5id1">
                   <keySig xml:id="kbkpuu8" sig="3s"/>
                   <meterSig xml:id="msrghge1" count="4" unit="4"/>
-                  <staffGrp xml:id="swnvyhu1" bar.thru="false">
+                  <staffGrp xml:id="swnvyhu1" bar.thru="true">
                      <grpSym xml:id="g3pi9s51" symbol="brace"/>
                      <label xml:id="l8e71g11"><rend fontsize="large" fontweight="bold">Var. XII</rend></label>
                      <staffDef xml:id="svytcm31" lines="5" n="1">
@@ -18523,7 +18523,7 @@
                <scoreDef xml:id="suzs32m1">
                   <keySig xml:id="k1fyhor2" sig="3s"/>
                   <meterSig xml:id="mdo09wu1" count="4" unit="4"/>
-                  <staffGrp xml:id="sj5zeix2" bar.thru="false">
+                  <staffGrp xml:id="sj5zeix2" bar.thru="true">
                      <grpSym xml:id="gngyhvm1" symbol="brace"/>
                      <label xml:id="l89i6re1"><rend fontsize="large" fontweight="bold">Var. XIII</rend></label>
                      <staffDef xml:id="sge7yse" lines="5" n="1">
