@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="mdumu27" meiversion="5.1">
    <meiHead xml:id="mxtf9m61">
       <fileDesc xml:id="frw6vpo1">
@@ -37,7 +38,7 @@
             <application xml:id="a7rdhav2" version="1.0.2">
                <name xml:id="nf6on0u1">Deep Optical Measure Detector</name>
             </application>
-            <application xml:id="adlx6tb" enddate="2026-11-24T21:25:56" version="1.6.3">
+            <application xml:id="adlx6tb" enddate="2026-11-24T21:51:32" version="1.6.3">
                <name xml:id="nhiovud">mei-friend</name>
                <p xml:id="pzd1wwb1">Measure zones corrected (trompamusic-encodings/Beethoven_WoO66_BreitkopfHaertel, img/measure_annotations.xml).</p>
             </application>
@@ -670,6 +671,24 @@
                <scoreDef xml:id="ssr9nft2">
                   <keySig xml:id="kfxfj2m1" sig="3s"/>
                   <meterSig xml:id="mdpi18x1" count="2" unit="4"/>
+                  <pgHead xml:id="pbvlpbh1" func="first">
+                     <rend xml:id="rlgs46r1" fontsize="x-small" fontweight="bold" halign="left">Beethovens Werke.</rend>
+                     <rend xml:id="r5alfz4" fontsize="x-large" fontweight="bold" halign="center">
+                        <rend xml:id="ry2vn4j1" fontsize="120%">DREIZEHN VARIATIONEN</rend>
+                        <lb xml:id="l0qq9q7"/>
+                        <rend xml:id="rc2ipqf1" fontsize="50%">über das Thema 
+                           <rend xml:id="rquc1w01" fontsize="120%">„Es war einmal ein alter Mann“</rend>
+                           <lb xml:id="lw1alx11"/>
+                        </rend>
+                        <rend xml:id="rbjic9m2" fontsize="50%">aus der Oper: 
+                           <rend xml:id="rk0trjm1" fontsize="120%">„Das rothe Käppchen“</rend> von Dittersdorf<lb xml:id="lifa2tc1"/></rend>
+                        <rend xml:id="ryeodfh" fontsize="60%">für das Pianoforte<lb xml:id="le5aas01"/></rend>
+                        <rend xml:id="rx3poh21" fontsize="45%">von</rend>
+                        <rend xml:id="resgc21" fontsize="120%">
+                           <lb xml:id="ltk1bfx2"/>L. VAN BEETHOVEN.</rend>
+                     </rend>
+                     <rend xml:id="rrja60l2" fontsize="x-small" fontweight="bold" halign="right">Serie 17. No. 175.</rend>
+                  </pgHead>
                   <staffGrp xml:id="s1pi33e1" bar.thru="true">
                      <grpSym xml:id="ggq1vys2" symbol="brace"/>
                      <label xml:id="lp1j1ok2">
@@ -1974,7 +1993,6 @@
                            </chord>
                         </layer>
                      </staff>
-                     <hairpin xml:id="hwjzmb81" form="" staff="1" tstamp="1" tstamp2="1.75"/>
                      <hairpin xml:id="hif85yo2" form="dim" staff="1" tstamp="2" tstamp2="2.75"/>
                      <hairpin xml:id="hogcx861" form="cres" staff="1" tstamp="1" tstamp2="1.75"/>
                   </measure>
@@ -3001,7 +3019,7 @@
                               <note xml:id="nx0q8iq1" dur="8" oct="3" pname="a"/>
                            </beam>
                            <beam xml:id="bt2shln1">
-                              <note xml:id="nf2mi97" accid.ges="s" oct="3" pname="g" dur="8"/>
+                              <note xml:id="nf2mi97" accid.ges="s" dur="8" oct="3" pname="g"/>
                               <note xml:id="ntd4e54" dur="8" oct="4" pname="d"/>
                            </beam>
                         </layer>
@@ -3010,7 +3028,6 @@
                            <note xml:id="nboz0nq1" dur="4" oct="3" pname="e"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="d7mcupq1" place="above" staff="2" startid="#cfp2lxc">mf</dynam>
                      <dynam xml:id="dxh5egq1" place="below" staff="2" startid="#ntd4e54" vo="3.5">sf</dynam>
                      <dynam xml:id="dey7blk1" ho="-1.5" place="above" staff="2" startid="#nf2mi97" vo="-6">mf</dynam>
                      <tie xml:id="tm5u0ef" endid="#nuu3wnd1" staff="2" startid="#ntd4e54"/>
