@@ -38,7 +38,7 @@
             <application xml:id="a7rdhav2" version="1.0.2">
                <name xml:id="nf6on0u1">Deep Optical Measure Detector</name>
             </application>
-            <application xml:id="adlx6tb" enddate="2026-11-24T21:51:32" version="1.6.3">
+            <application xml:id="adlx6tb" enddate="2026-11-24T21:58:58" version="1.6.3">
                <name xml:id="nhiovud">mei-friend</name>
                <p xml:id="pzd1wwb1">Measure zones corrected (trompamusic-encodings/Beethoven_WoO66_BreitkopfHaertel, img/measure_annotations.xml).</p>
             </application>
@@ -1909,7 +1909,7 @@
                   <staffGrp xml:id="sd2a5uz2" bar.thru="true">
                      <grpSym xml:id="g8e2d8t2" symbol="brace"/>
                      <label xml:id="l5ekdf3">
-                        <rend xml:id="rifjxb11" fontsize="large" fontweight="bold">Var. I.</rend>
+                        <rend xml:id="rifjxb11" fontsize="large" fontweight="bold">VAR. I.</rend>
                      </label>
                      <staffDef xml:id="syfo3qt2" lines="5" n="1">
                         <clef xml:id="clkb3qr1" line="2" shape="G"/>
@@ -2661,7 +2661,7 @@
                      <staff xml:id="st7p6gb1" n="2">
                         <layer xml:id="lkhjtj51" n="1">
                            <note xml:id="nzirqc11" dots="1" dur="4" oct="4" pname="e"/>
-                           <note xml:id="nvgmmlf" dur="8" oct="4" pname="d"/>
+                           <note xml:id="nvgmmlf" accid.ges="s" dur="8" oct="4" pname="c"/>
                         </layer>
                      </staff>
                      <slur xml:id="slxim791" endid="#naq65m9" staff="2" startid="#nzirqc11"/>
@@ -2734,7 +2734,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <slur xml:id="sujuekp2" endid="#nuhbpu6" staff="2" startid="#cvfsyk21"/>
+                     <slur xml:id="s720hq4" curvedir="above" endid="#nuhbpu6" staff="2" startid="#nmk7v7a1"/>
                   </measure>
                   <measure xml:id="mffpg6i1" facs="#ztukc5j2" label="65" n="65">
                      <slur xml:id="s73qr131" endid="#n210qbs2" staff="1" startid="#n91dab8"/>
@@ -3149,7 +3149,7 @@
                   <staffGrp xml:id="s6cyd9y2" bar.thru="true">
                      <grpSym xml:id="gpn6oui2" symbol="brace"/>
                      <label xml:id="l85nhnj1">
-                        <rend xml:id="re0mcn81" fontsize="large" fontweight="bold">Var. II.</rend>
+                        <rend xml:id="re0mcn81" fontsize="large" fontweight="bold">VAR. II.</rend>
                      </label>
                      <staffDef xml:id="stgsvyq2" lines="5" n="1">
                         <clef xml:id="c9xhbj4" line="2" shape="G"/>
@@ -3235,7 +3235,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dynam xml:id="dbdyyf" place="below" staff="1" startid="#ngvly5e1">p</dynam>
+                     <dynam xml:id="dbdyyf" place="between" staff="1 2" startid="#ngvly5e1">p</dynam>
                      <dynam xml:id="dwjogvb" place="below" staff="2" startid="#ntt3few1">fp</dynam>
                   </measure>
                   <measure xml:id="mrqls1j1" facs="#zesoe84" label="80" n="80">
@@ -4406,7 +4406,7 @@
                   <staffGrp xml:id="sdrq9z51" bar.thru="true">
                      <grpSym xml:id="g8ml9za1" symbol="brace"/>
                      <label xml:id="l5qo9sc1">
-                        <rend xml:id="r0nqbn7" fontsize="large" fontweight="bold">Var. III.</rend>
+                        <rend xml:id="r0nqbn7" fontsize="large" fontweight="bold">VAR. III.</rend>
                      </label>
                      <staffDef xml:id="sdadstm2" lines="5" n="1">
                         <clef xml:id="clwywvj1" line="2" shape="G"/>
@@ -4430,28 +4430,34 @@
                         </layer>
                      </staff>
                      <tempo xml:id="t417o4h" place="above" staff="1" tstamp="1">Commodetto.</tempo>
-                     <dynam xml:id="d7smgjc" place="below" staff="1" startid="#nzgsgk11">p</dynam>
+                     <dynam xml:id="d7smgjc" place="between" staff="1 2" startid="#nzgsgk11">p</dynam>
                   </measure>
                   <measure xml:id="miipjlb1" facs="#zm93bjw1" label="116" n="116">
                      <slur xml:id="so9a5bx2" endid="#ncq4z851" staff="1" startid="#ni3fo7h1"/>
                      <staff xml:id="s6t1sy2" n="1">
                         <layer xml:id="lrqsmy7" n="1">
-                           <beam xml:id="bzvl0ix2">
-                              <tuplet xml:id="t26shm71" bracket.visible="false" num="3" num.visible="true" numbase="2">
-                                 <note xml:id="ni3fo7h1" dur="16" oct="4" pname="a"/>
-                                 <note xml:id="n0qcscp1" dur="16" oct="4" pname="b"/>
-                                 <note xml:id="nit1snf1" accid.ges="s" dur="16" oct="5" pname="c"/>
-                              </tuplet>
-                              <tuplet xml:id="tnjtx3b1" bracket.visible="false" num="3" num.visible="true" numbase="2">
+                           <tuplet xml:id="t26shm71" bracket.visible="false" num="3" num.place="above" num.visible="true" numbase="2">
+                              <beam xml:id="bwgx8mu1">
+                                 <note xml:id="ni3fo7h1" dur="16" oct="4" pname="a" stem.dir="up"/>
+                                 <note xml:id="n0qcscp1" dur="16" oct="4" pname="b" stem.dir="up"/>
+                                 <note xml:id="nit1snf1" accid.ges="s" dur="16" oct="5" pname="c" stem.dir="up"/>
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="tnjtx3b1" bracket.visible="false" num="3" num.place="above" num.visible="true" numbase="2">
+                              <beam xml:id="bsgvz72">
                                  <note xml:id="no9f04w1" dur="16" oct="5" pname="d"/>
                                  <note xml:id="ni39f8y1" dur="16" oct="5" pname="e"/>
                                  <note xml:id="ne170nq1" accid.ges="s" dur="16" oct="5" pname="f"/>
-                              </tuplet>
-                              <tuplet xml:id="toxc3he" bracket.visible="false" num="3" num.visible="true" numbase="2">
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="toxc3he" bracket.visible="false" num="3" num.place="above" num.visible="true" numbase="2">
+                              <beam xml:id="bnml7tb">
                                  <note xml:id="n1lam2s2" accid.ges="s" dur="16" oct="5" pname="g"/>
                                  <note xml:id="ngk92zh1" dur="16" oct="5" pname="a"/>
                                  <note xml:id="n80kxan1" dur="16" oct="5" pname="b"/>
-                              </tuplet>
+                              </beam>
+                           </tuplet>
+                           <beam xml:id="b17dejy2">
                               <note xml:id="ngral71" accid.ges="s" dur="16" oct="6" pname="c">
                                  <artic xml:id="aqpt7yj1" artic="stacc"/>
                               </note>
@@ -4475,6 +4481,7 @@
                            <note xml:id="nr9aw4i2" dur="2" oct="3" pname="a"/>
                         </layer>
                      </staff>
+                     <hairpin xml:id="h6n7k8q1" form="cres" staff="1" tstamp="1" tstamp2="2.75"/>
                   </measure>
                   <measure xml:id="m34nimr1" facs="#zxov20r1" label="117" n="117">
                      <slur xml:id="sthi5zu2" endid="#njz8gvm1" staff="1" startid="#n2mp7zi2"/>
@@ -4503,8 +4510,8 @@
                            <note xml:id="n2ca4tc" accid.ges="s" dur="2" oct="3" pname="g"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dcdida31" place="below" staff="1" startid="#n2mp7zi2">sf</dynam>
-                     <dynam xml:id="d1bf4di1" place="below" staff="1" startid="#njz8gvm1">p</dynam>
+                     <dynam xml:id="d1bf4di1" place="between" staff="1 2" startid="#njz8gvm1">p</dynam>
+                     <dynam xml:id="dn76kxc" staff="1" startid="#nea1yzr1">sf</dynam>
                   </measure>
                   <measure xml:id="m3c9kwf1" facs="#z6fyaz1" label="118" n="118">
                      <slur xml:id="s9elu3e" endid="#niy0icw1" staff="1" startid="#nmxet7o2"/>
