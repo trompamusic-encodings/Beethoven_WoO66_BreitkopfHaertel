@@ -37,7 +37,7 @@
             <application xml:id="a7rdhav2" version="1.0.2">
                <name xml:id="nf6on0u1">Deep Optical Measure Detector</name>
             </application>
-            <application xml:id="adlx6tb" enddate="2026-11-24T21:02:49" version="1.6.3">
+            <application xml:id="adlx6tb" enddate="2026-11-24T21:25:56" version="1.6.3">
                <name xml:id="nhiovud">mei-friend</name>
                <p xml:id="pzd1wwb1">Measure zones corrected (trompamusic-encodings/Beethoven_WoO66_BreitkopfHaertel, img/measure_annotations.xml).</p>
             </application>
@@ -672,7 +672,9 @@
                   <meterSig xml:id="mdpi18x1" count="2" unit="4"/>
                   <staffGrp xml:id="s1pi33e1" bar.thru="true">
                      <grpSym xml:id="ggq1vys2" symbol="brace"/>
-                     <label xml:id="lp1j1ok2"><rend fontsize="large" fontweight="bold">Tema</rend></label>
+                     <label xml:id="lp1j1ok2">
+                        <rend xml:id="r9gecd91" fontsize="large" fontweight="bold">TEMA.</rend>
+                     </label>
                      <staffDef xml:id="s4627ry1" lines="5" n="1">
                         <clef xml:id="cgrm46l1" line="2" shape="G"/>
                      </staffDef>
@@ -696,8 +698,8 @@
                            <rest xml:id="r90u52y2" dur="8"/>
                         </layer>
                      </staff>
-                     <tempo xml:id="t9wkhhs1" place="above" staff="1" tstamp="1">Allegretto</tempo>
-                     <dynam xml:id="d6y1sf9" place="below" staff="1" startid="#nh356tt2">p</dynam>
+                     <tempo xml:id="t9wkhhs1" place="above" staff="1" tstamp="1">Allegretto.</tempo>
+                     <dynam xml:id="d6y1sf9" place="between" staff="1 2" startid="#nh356tt2">p</dynam>
                   </measure>
                   <measure xml:id="mlcgkl81" facs="#zij15uh" label="2" n="2">
                      <staff xml:id="subevmr1" n="1">
@@ -900,18 +902,18 @@
                      <staff xml:id="soejbs11" n="1">
                         <layer xml:id="lfvp75f1" n="1">
                            <beam xml:id="bzxy45r1">
-                              <note xml:id="nyaa94p1" accid.ges="s" dur="8" oct="5" pname="c">
+                              <note xml:id="nyaa94p1" accid.ges="s" dur="8" oct="5" pname="c" stem.dir="up">
                                  <artic xml:id="a6wc1mb1" artic="stacc"/>
                               </note>
-                              <note xml:id="nimkqah" dur="8" oct="4" pname="a">
+                              <note xml:id="nimkqah" dur="8" oct="4" pname="a" stem.dir="up">
                                  <artic xml:id="akvgdqo2" artic="stacc"/>
                               </note>
-                              <chord xml:id="c61do8h1" dur="8">
+                              <chord xml:id="c61do8h1" dur="8" stem.dir="up">
                                  <note xml:id="nyff9sj1" accid.ges="s" oct="4" pname="g"/>
                                  <note xml:id="nfon7o01" oct="5" pname="d"/>
                                  <artic xml:id="am8gwdr2" artic="stacc"/>
                               </chord>
-                              <chord xml:id="ci468j7" dur="8">
+                              <chord xml:id="ci468j7" dur="8" stem.dir="up">
                                  <note xml:id="n36daoi1" oct="4" pname="a"/>
                                  <note xml:id="n9nj4og" accid.ges="s" oct="5" pname="c"/>
                                  <artic xml:id="aad02sk1" artic="stacc"/>
@@ -938,11 +940,11 @@
                      <staff xml:id="s8pgq19" n="1">
                         <layer xml:id="lhy7yev2" n="1">
                            <beam xml:id="b3h409l2">
-                              <chord xml:id="c9u4o1h1" dur="8">
+                              <chord xml:id="c9u4o1h1" dur="8" stem.dir="up">
                                  <note xml:id="n2bu0u71" oct="4" pname="a"/>
                                  <note xml:id="nmxr2ow2" accid.ges="s" oct="5" pname="c"/>
                               </chord>
-                              <chord xml:id="c660t0u2" dur="8">
+                              <chord xml:id="c660t0u2" dur="8" stem.dir="up">
                                  <note xml:id="nyiwiqd1" accid.ges="s" oct="4" pname="g"/>
                                  <note xml:id="nwwq9so1" oct="4" pname="b"/>
                               </chord>
@@ -1528,14 +1530,14 @@
                      <slur xml:id="ssxwptw2" endid="#nfrkbdd1" staff="1" startid="#nffhpeq2"/>
                      <staff xml:id="s6fzg5" n="1">
                         <layer xml:id="li2ximj1" n="1">
-                           <note xml:id="nmop5qd1" dur="8" grace="unacc" oct="5" pname="d"/>
+                           <note xml:id="nmop5qd1" accid.ges="s" dur="8" grace="unacc" oct="5" pname="c"/>
                            <beam xml:id="b4y2p1b">
-                              <note xml:id="nffhpeq2" accid.ges="s" dur="16" oct="5" pname="c"/>
-                              <note xml:id="nqj7xru2" dur="16" oct="4" pname="b"/>
-                              <note xml:id="nfb8umk2" accid.ges="s" dur="16" oct="5" pname="c"/>
-                              <note xml:id="n2s0zeg1" dur="16" oct="5" pname="d"/>
+                              <note xml:id="nffhpeq2" dur="16" oct="4" pname="b"/>
+                              <note xml:id="nqj7xru2" dur="16" oct="4" pname="a"/>
+                              <note xml:id="nfb8umk2" dur="16" oct="4" pname="b"/>
+                              <note xml:id="n2s0zeg1" accid.ges="s" dur="16" oct="5" pname="c"/>
                            </beam>
-                           <note xml:id="nfrkbdd1" accid.ges="s" dur="8" oct="5" pname="c"/>
+                           <note xml:id="nfrkbdd1" dur="8" oct="4" pname="b"/>
                            <note xml:id="np6x34j1" dur="8" oct="4" pname="e">
                               <artic xml:id="ahsur5y2" artic="stacc"/>
                            </note>
@@ -1584,11 +1586,9 @@
                      <slur xml:id="sod1n1o1" endid="#n4tvsz5" staff="1" startid="#nngfojo1"/>
                      <staff xml:id="snhyxr4" n="1">
                         <layer xml:id="lyy77o11" n="1">
-                           <beam xml:id="buuy8nj1">
+                           <beam xml:id="bqzwijq1">
                               <note xml:id="nngfojo1" dots="1" dur="8" oct="5" pname="e"/>
                               <note xml:id="n4tvsz5" accid.ges="s" dur="16" oct="5" pname="f"/>
-                           </beam>
-                           <beam xml:id="bqmk88l2">
                               <note xml:id="nrf128t1" dur="8" oct="5" pname="e">
                                  <artic xml:id="a0hwdu71" artic="stacc"/>
                               </note>
@@ -1658,11 +1658,9 @@
                      <slur xml:id="szcw1261" endid="#n3a6x8c1" staff="1" startid="#nqugzr51"/>
                      <staff xml:id="sfg1sv91" n="1">
                         <layer xml:id="l3wt8uw1" n="1">
-                           <beam xml:id="bhegdy1">
+                           <beam xml:id="bn5o8f">
                               <note xml:id="nqugzr51" dots="1" dur="8" oct="5" pname="e"/>
                               <note xml:id="n3a6x8c1" accid.ges="s" dur="16" oct="5" pname="f"/>
-                           </beam>
-                           <beam xml:id="bowi6x31">
                               <note xml:id="n11hqto1" dur="8" oct="5" pname="e">
                                  <artic xml:id="ax31za5" artic="stacc"/>
                               </note>
@@ -1703,7 +1701,7 @@
                                  <artic xml:id="azg4kl1" artic="stacc"/>
                               </note>
                            </beam>
-                           <note xml:id="nh4kz3x2" dur="8" grace="unacc" oct="5" pname="d"/>
+                           <note xml:id="nh4kz3x2" accid.ges="s" dur="8" grace="unacc" oct="5" pname="c"/>
                            <beam xml:id="b38ytcu2">
                               <note xml:id="njh0iit2" dur="16" oct="4" pname="b"/>
                               <note xml:id="nzjuio71" dur="16" oct="4" pname="a"/>
@@ -1770,7 +1768,7 @@
                                  <artic xml:id="ansypyl1" artic="stacc"/>
                               </note>
                            </beam>
-                           <note xml:id="ni1g5hn2" dur="8" grace="unacc" oct="5" pname="d"/>
+                           <note xml:id="ni1g5hn2" accid.ges="s" dur="8" grace="unacc" oct="5" pname="c"/>
                            <beam xml:id="buomanm2">
                               <note xml:id="nanq9ec1" dur="16" oct="4" pname="b"/>
                               <note xml:id="n2ttrsl1" dur="16" oct="4" pname="a"/>
@@ -1840,7 +1838,7 @@
                                  <artic xml:id="aml8mgw1" artic="stacc"/>
                               </note>
                            </beam>
-                           <note xml:id="nrk9bf01" dur="8" grace="unacc" oct="5" pname="d"/>
+                           <note xml:id="nrk9bf01" accid.ges="s" dur="8" grace="unacc" oct="5" pname="c"/>
                            <beam xml:id="b457cdi2">
                               <note xml:id="nshkfsi2" dur="16" oct="4" pname="b"/>
                               <note xml:id="n5gym8v2" dur="16" oct="4" pname="a"/>
@@ -1891,7 +1889,9 @@
                   <meterSig xml:id="m6qbgs31" count="2" unit="4"/>
                   <staffGrp xml:id="sd2a5uz2" bar.thru="true">
                      <grpSym xml:id="g8e2d8t2" symbol="brace"/>
-                     <label xml:id="l5ekdf3"><rend fontsize="large" fontweight="bold">Var. I</rend></label>
+                     <label xml:id="l5ekdf3">
+                        <rend xml:id="rifjxb11" fontsize="large" fontweight="bold">Var. I.</rend>
+                     </label>
                      <staffDef xml:id="syfo3qt2" lines="5" n="1">
                         <clef xml:id="clkb3qr1" line="2" shape="G"/>
                      </staffDef>
@@ -1901,8 +1901,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="scxrr601">
-                  <sb xml:id="so8fhgm1"/>
-                  <pb xml:id="pfqhr9i2" facs="#sqm96pn1" n="2"/>
+                  <pb xml:id="p9ckrzi1"/>
                   <measure xml:id="mt27oym2" facs="#zxrtaog1" label="39" metcon="false" n="39">
                      <staff xml:id="sv4vl9f1" n="1">
                         <layer xml:id="lbs5is9" n="1">
@@ -1914,7 +1913,7 @@
                            <rest xml:id="rtcqpab" dur="8"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dx380h" place="below" staff="1" startid="#nsarioc">p</dynam>
+                     <dynam xml:id="dx380h" place="between" staff="1 2" startid="#nsarioc">p</dynam>
                   </measure>
                   <measure xml:id="m7apwjh1" facs="#zn7k9n8" label="40" n="40">
                      <slur xml:id="sy39y6j2" endid="#nsi1fya" staff="1" startid="#nzbnrwb1"/>
@@ -1971,11 +1970,13 @@
                            <chord xml:id="cg5fzh61" dur="2">
                               <note xml:id="n550hhg" accid.ges="s" oct="3" pname="g"/>
                               <note xml:id="nu82kyu1" oct="3" pname="b"/>
-                              <note xml:id="ns5czzd" oct="4" pname="d"/>
                               <note xml:id="n1l8hfr1" oct="4" pname="e"/>
                            </chord>
                         </layer>
                      </staff>
+                     <hairpin xml:id="hwjzmb81" form="" staff="1" tstamp="1" tstamp2="1.75"/>
+                     <hairpin xml:id="hif85yo2" form="dim" staff="1" tstamp="2" tstamp2="2.75"/>
+                     <hairpin xml:id="hogcx861" form="cres" staff="1" tstamp="1" tstamp2="1.75"/>
                   </measure>
                   <measure xml:id="mrk51rq1" facs="#z3tbgns2" label="42" n="42">
                      <slur xml:id="srr1a5l2" endid="#n5iyeo5" staff="1" startid="#n2bcx6m1"/>
@@ -2529,7 +2530,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <hairpin xml:id="hko2fbl2" endid="#nfwn4ej2" form="cres" place="below" staff="1" startid="#nj02mwc"/>
+                     <hairpin xml:id="hko2fbl2" form="cres" place="below" staff="1" tstamp="2" tstamp2="2m+2"/>
                   </measure>
                   <measure xml:id="m8olp9c1" facs="#z4rny2e1" label="59" n="59">
                      <slur xml:id="s0607hm1" endid="#n6l2ymu2" staff="1" startid="#nfgjcoi2"/>
@@ -2566,7 +2567,6 @@
                            </beam>
                         </layer>
                      </staff>
-                     <hairpin xml:id="htp6gh5" endid="#n6l2ymu2" form="dim" place="below" staff="1" startid="#nfgjcoi2"/>
                   </measure>
                   <sb xml:id="stv7r44"/>
                   <measure xml:id="m6ao9ym2" facs="#z9quac81" label="60" n="60">
@@ -2589,7 +2589,7 @@
                                  <accid xml:id="a38zj6o2" accid="n"/>
                               </note>
                               <note xml:id="nwtfkxb1" dur="16" oct="5" pname="f">
-                                 <accid xml:id="a5stf5" accid="s"/>
+                                 <accid xml:id="a5stf5" accid="ns"/>
                               </note>
                               <note xml:id="n1ssmgh1" dur="16" oct="5" pname="d">
                                  <accid xml:id="ajbfdzh" accid="s"/>
@@ -2608,7 +2608,6 @@
                            </beam>
                         </layer>
                      </staff>
-                     <hairpin xml:id="hvoooy51" endid="#nn3az3j1" form="cres" place="below" staff="1" startid="#no2w13g1"/>
                      <hairpin xml:id="hsfeu91" endid="#n1ssmgh1" form="dim" place="below" staff="1" startid="#n0kcvlf1"/>
                   </measure>
                   <measure xml:id="m93rgtf" facs="#zaf0qo91" label="61" n="61">
@@ -2679,7 +2678,7 @@
                            <rest xml:id="r7o7d4b1" dur="8"/>
                            <chord xml:id="cr6rzcc1" dur="8">
                               <note xml:id="noru8121" accid.ges="s" oct="3" pname="a"/>
-                              <note xml:id="n0d8y0p1" oct="4" pname="e"/>
+                              <note xml:id="n0d8y0p1" accid.ges="s" oct="4" pname="f"/>
                            </chord>
                         </layer>
                      </staff>
@@ -2754,7 +2753,7 @@
                   </measure>
                   <sb xml:id="shrbt8t2"/>
                   <measure xml:id="mzzgndx1" facs="#z34lthu2" label="66" n="66">
-                     <slur xml:id="sd5h77h" endid="#na9eitp1" staff="1" startid="#nyiiikj1"/>
+                     <slur xml:id="sd5h77h" curvedir="below" endid="#na9eitp1" staff="1" startid="#nyiiikj1"/>
                      <staff xml:id="ssxfoyx2" n="1">
                         <layer xml:id="lmyitgv2" n="1">
                            <beam xml:id="b4nkace1">
@@ -2763,7 +2762,7 @@
                               <note xml:id="n26ncv2" dur="16" oct="4" pname="a"/>
                               <note xml:id="nmtokmx2" accid.ges="s" dur="16" oct="5" pname="c"/>
                            </beam>
-                           <note xml:id="na9eitp1" dur="8" oct="4" pname="b">
+                           <note xml:id="na9eitp1" dur="8" oct="4" pname="b" stem.dir="up">
                               <artic xml:id="amtri4d" artic="stacc"/>
                            </note>
                            <note xml:id="nqxsbmy1" dur="8" oct="4" pname="e">
@@ -2841,9 +2840,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dynam xml:id="d3hpck7" place="below" staff="1" startid="#npdeelg">sf</dynam>
-                     <hairpin xml:id="hrunf6i2" endid="#n06yvi4" form="cres" place="below" staff="1" startid="#npdeelg"/>
-                     <hairpin xml:id="h6h9jzk1" endid="#nkiemen1" form="dim" place="below" staff="1" startid="#njc87bj2"/>
+                     <dynam xml:id="d3hpck7" place="below" staff="2" startid="#npdeelg">sf</dynam>
+                     <hairpin xml:id="hrunf6i2" endid="#n06yvi4" form="cres" place="below" staff="1" startid="#npdeelg" vgrp="1"/>
+                     <hairpin xml:id="h6h9jzk1" endid="#nkiemen1" form="dim" place="below" staff="1" startid="#njc87bj2" vgrp="1"/>
                   </measure>
                   <measure xml:id="m2470g3" facs="#zikfg2m1" label="69" n="69">
                      <slur xml:id="s5drzw5" endid="#nygsdkz1" staff="1" startid="#nfa52dr2"/>
@@ -2904,9 +2903,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dynam xml:id="dkyx0bk2" place="below" staff="1" startid="#nasy7eg">sf</dynam>
-                     <hairpin xml:id="hha2afq1" endid="#ny2hg7k2" form="cres" place="below" staff="1" startid="#nasy7eg"/>
-                     <hairpin xml:id="ha9aajp1" endid="#nms3ga4" form="dim" place="below" staff="1" startid="#nzn9t6w2"/>
+                     <dynam xml:id="dkyx0bk2" place="below" staff="2" startid="#nasy7eg">sf</dynam>
+                     <hairpin xml:id="hha2afq1" endid="#ny2hg7k2" form="cres" place="below" staff="1" startid="#nasy7eg" vgrp="2"/>
+                     <hairpin xml:id="ha9aajp1" endid="#nms3ga4" form="dim" place="below" staff="1" startid="#nzn9t6w2" vgrp="2"/>
                   </measure>
                   <sb xml:id="sjmpjsz1"/>
                   <measure xml:id="meqfvgu1" facs="#ztwqdd91" label="71" n="71">
@@ -2930,9 +2929,11 @@
                      </staff>
                      <staff xml:id="s46z9j11" n="2">
                         <layer xml:id="l5e33ne" n="1">
-                           <beam xml:id="btroqnf">
+                           <beam xml:id="b5rvjfc">
                               <note xml:id="n90ekiy1" dur="8" oct="3" pname="a"/>
                               <note xml:id="nozi46y2" dur="8" oct="4" pname="e"/>
+                           </beam>
+                           <beam xml:id="buak2ht1">
                               <note xml:id="njq9a03" dur="8" oct="3" pname="e"/>
                               <note xml:id="nc4hgsf" dur="8" oct="4" pname="d"/>
                            </beam>
@@ -2968,7 +2969,7 @@
                            <note xml:id="nb5394k2" dur="8" oct="3" pname="d"/>
                         </layer>
                      </staff>
-                     <slur xml:id="s3z7mqg" endid="#nxj3bam1" staff="2" startid="#nb5394k2"/>
+                     <slur xml:id="sg2bcqo1" endid="#ntd4e54" staff="2" startid="#nb5394k2" vo="1"/>
                   </measure>
                   <measure xml:id="mlk2zi2" facs="#zc7pnpj1" label="73" n="73">
                      <slur xml:id="s6w3ulw2" endid="#nmd9mcx2" staff="1" startid="#nyokvtx2"/>
@@ -3000,11 +3001,8 @@
                               <note xml:id="nx0q8iq1" dur="8" oct="3" pname="a"/>
                            </beam>
                            <beam xml:id="bt2shln1">
-                              <chord xml:id="cfp2lxc" dur="8">
-                                 <note xml:id="nwupsmp1" oct="3" pname="e"/>
-                                 <note xml:id="nf2mi97" accid.ges="s" oct="3" pname="g"/>
-                              </chord>
-                              <note xml:id="ntd4e54" dur="8" oct="4" pname="e"/>
+                              <note xml:id="nf2mi97" accid.ges="s" oct="3" pname="g" dur="8"/>
+                              <note xml:id="ntd4e54" dur="8" oct="4" pname="d"/>
                            </beam>
                         </layer>
                         <layer xml:id="lozantx2" n="2">
@@ -3012,9 +3010,10 @@
                            <note xml:id="nboz0nq1" dur="4" oct="3" pname="e"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dylyss5" place="below" staff="1" startid="#nyokvtx2">sf</dynam>
-                     <dynam xml:id="d7mcupq1" place="below" staff="2" startid="#cfp2lxc">mf</dynam>
-                     <dynam xml:id="dxh5egq1" place="below" staff="2" startid="#ntd4e54">sf</dynam>
+                     <dynam xml:id="d7mcupq1" place="above" staff="2" startid="#cfp2lxc">mf</dynam>
+                     <dynam xml:id="dxh5egq1" place="below" staff="2" startid="#ntd4e54" vo="3.5">sf</dynam>
+                     <dynam xml:id="dey7blk1" ho="-1.5" place="above" staff="2" startid="#nf2mi97" vo="-6">mf</dynam>
+                     <tie xml:id="tm5u0ef" endid="#nuu3wnd1" staff="2" startid="#ntd4e54"/>
                   </measure>
                   <measure xml:id="md53g2o2" facs="#zhe45go1" label="74" n="74">
                      <slur xml:id="sqyc7em2" endid="#na08dq71" staff="1" startid="#nxu3sd71"/>
@@ -3049,7 +3048,7 @@
                            <note xml:id="nlmbnhl1" dur="8" oct="3" pname="d"/>
                         </layer>
                      </staff>
-                     <slur xml:id="smtu2fm2" endid="#nyaf2e11" staff="2" startid="#nlmbnhl1"/>
+                     <slur xml:id="sohl4w8" endid="#nswqtge1" staff="2" startid="#nlmbnhl1" vo="1"/>
                   </measure>
                   <measure xml:id="m291u3e" facs="#z18ecnj2" label="75" n="75">
                      <slur xml:id="sgbdnmf1" endid="#ns9x60d1" staff="1" startid="#nlf8l0b"/>
@@ -3093,9 +3092,8 @@
                            <note xml:id="n7idon7" dur="4" oct="3" pname="e"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dnhxedm2" place="below" staff="1" startid="#nvpmxvt1">sf</dynam>
-                     <dynam xml:id="du000on2" place="below" staff="2" startid="#chxp70q2">mf</dynam>
-                     <dynam xml:id="dwv0nzn2" place="below" staff="2" startid="#nb9s4p1">sf</dynam>
+                     <dynam xml:id="du000on2" ho="-1" place="above" staff="2" startid="#chxp70q2" vo="-6">mf</dynam>
+                     <dynam xml:id="dwv0nzn2" place="below" staff="2" startid="#nb9s4p1" vo="1.5">sf</dynam>
                   </measure>
                   <measure xml:id="movqhy3" facs="#zcoyv1w2" label="76" metcon="false" n="76" right="end">
                      <staff xml:id="s7rjdbg1" n="1">
@@ -3121,7 +3119,7 @@
                            <note xml:id="n016c1d" dur="8" oct="3" pname="a"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="dlrm0z1" place="below" staff="1" startid="#n8p3vac1">p</dynam>
+                     <dynam xml:id="dlrm0z1" place="between" staff="1 2" startid="#n8p3vac1">p</dynam>
                   </measure>
                </section>
             </score>
@@ -3133,7 +3131,9 @@
                   <meterSig xml:id="mx3ei1s1" count="2" unit="4"/>
                   <staffGrp xml:id="s6cyd9y2" bar.thru="true">
                      <grpSym xml:id="gpn6oui2" symbol="brace"/>
-                     <label xml:id="l85nhnj1"><rend fontsize="large" fontweight="bold">Var. II</rend></label>
+                     <label xml:id="l85nhnj1">
+                        <rend xml:id="re0mcn81" fontsize="large" fontweight="bold">Var. II.</rend>
+                     </label>
                      <staffDef xml:id="stgsvyq2" lines="5" n="1">
                         <clef xml:id="c9xhbj4" line="2" shape="G"/>
                      </staffDef>
@@ -3143,7 +3143,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s9c6s4f">
-                  <sb xml:id="s0g1b6"/>
                   <pb xml:id="pvejoef1" facs="#sti2rhc" n="3"/>
                   <measure xml:id="myqoc7h1" facs="#zjqbdud" label="77" metcon="false" n="77">
                      <staff xml:id="sa5p1d7" n="1">
@@ -4389,7 +4388,9 @@
                   <meterSig xml:id="mh2pgpq2" count="2" unit="4"/>
                   <staffGrp xml:id="sdrq9z51" bar.thru="true">
                      <grpSym xml:id="g8ml9za1" symbol="brace"/>
-                     <label xml:id="l5qo9sc1"><rend fontsize="large" fontweight="bold">Var. III</rend></label>
+                     <label xml:id="l5qo9sc1">
+                        <rend xml:id="r0nqbn7" fontsize="large" fontweight="bold">Var. III.</rend>
+                     </label>
                      <staffDef xml:id="sdadstm2" lines="5" n="1">
                         <clef xml:id="clwywvj1" line="2" shape="G"/>
                      </staffDef>
@@ -4399,7 +4400,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="sp0zxk2">
-                  <sb xml:id="shthel31"/>
                   <pb xml:id="p4ztjmc1" facs="#snfbddm1" n="4"/>
                   <measure xml:id="miix8oj2" facs="#zrtr88j1" label="115" metcon="false" n="115">
                      <staff xml:id="sfiztwv2" n="1">
@@ -4412,7 +4412,7 @@
                            <rest xml:id="rz5xbpv2" dur="8"/>
                         </layer>
                      </staff>
-                     <tempo xml:id="t417o4h" place="above" staff="1" tstamp="1">Commodetto</tempo>
+                     <tempo xml:id="t417o4h" place="above" staff="1" tstamp="1">Commodetto.</tempo>
                      <dynam xml:id="d7smgjc" place="below" staff="1" startid="#nzgsgk11">p</dynam>
                   </measure>
                   <measure xml:id="miipjlb1" facs="#zm93bjw1" label="116" n="116">
@@ -5318,7 +5318,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb xml:id="sqqkl7i2"/>
                   <pb xml:id="puk5m6i2" facs="#sne2ein1" n="5"/>
                   <measure xml:id="mc7g5o61" facs="#zv1w9y81" label="143" n="143">
                      <slur xml:id="sspz4c8" endid="#ns9qz63" staff="1" startid="#nj2yl461"/>
@@ -5658,7 +5657,9 @@
                   <meterSig xml:id="mi6vvto1" count="2" unit="4"/>
                   <staffGrp xml:id="spph4mb1" bar.thru="true">
                      <grpSym xml:id="g9cunza" symbol="brace"/>
-                     <label xml:id="l1ys06f"><rend fontsize="large" fontweight="bold">Var. IV</rend></label>
+                     <label xml:id="l1ys06f">
+                        <rend xml:id="rw1y5y6" fontsize="large" fontweight="bold">Var. IV.</rend>
+                     </label>
                      <staffDef xml:id="s6i6nlj1" lines="5" n="1">
                         <clef xml:id="cqovgw71" line="2" shape="G"/>
                      </staffDef>
@@ -6448,7 +6449,6 @@
                      <fermata xml:id="fdqm2k8" place="above" staff="1" startid="#rhhwem91"/>
                      <fermata xml:id="fuhn0u6" place="above" staff="2" startid="#r11xo901"/>
                   </measure>
-                  <sb xml:id="smeznu8"/>
                   <pb xml:id="p21rt2m1" facs="#sdv86eg" n="6"/>
                   <measure xml:id="mgvwbwk2" facs="#zpq0jcq1" label="176" n="176">
                      <staff xml:id="sks31e3" n="1">
@@ -6959,7 +6959,9 @@
                   <meterSig xml:id="mcrhc2r1" count="2" unit="4"/>
                   <staffGrp xml:id="szn1x7o2" bar.thru="true">
                      <grpSym xml:id="gvufn44" symbol="brace"/>
-                     <label xml:id="leatcvs1"><rend fontsize="large" fontweight="bold">Var. V</rend></label>
+                     <label xml:id="leatcvs1">
+                        <rend xml:id="r3h8jl21" fontsize="large" fontweight="bold">Var. V.</rend>
+                     </label>
                      <staffDef xml:id="sbt775l1" lines="5" n="1">
                         <clef xml:id="cxp3vf91" line="2" shape="G"/>
                      </staffDef>
@@ -6981,7 +6983,7 @@
                            <rest xml:id="r8h5cgh" dur="8"/>
                         </layer>
                      </staff>
-                     <tempo xml:id="txjj9h3" place="above" staff="1" tstamp="1">Risoluto</tempo>
+                     <tempo xml:id="txjj9h3" place="above" staff="1" tstamp="1">Risoluto.</tempo>
                      <dynam xml:id="ddt6vcu1" place="below" staff="1" startid="#nigrnic">f</dynam>
                      <slur xml:id="sfcn80e1" endid="#nq57mba1" staff="1" startid="#nigrnic"/>
                   </measure>
@@ -7472,7 +7474,6 @@
                      <dynam xml:id="duryey9" place="below" staff="2" startid="#nup7hgh">p</dynam>
                      <dir xml:id="d28ex2p1" place="above" staff="2" startid="#nifhxsj1">ten.</dir>
                   </measure>
-                  <sb xml:id="sg1yd5y1"/>
                   <pb xml:id="p16z6u01" facs="#shxyxca" n="7"/>
                   <measure xml:id="mxxj9xc1" facs="#zoj70eu2" label="205" n="205">
                      <slur xml:id="sp79s92" endid="#nl38k7r2" staff="1" startid="#nwq6y54"/>
@@ -8412,7 +8413,9 @@
                   <meterSig xml:id="mexvv6j2" count="2" unit="4"/>
                   <staffGrp xml:id="sb0hoqj2" bar.thru="true">
                      <grpSym xml:id="gyqwnux1" symbol="brace"/>
-                     <label xml:id="lq5mx47"><rend fontsize="large" fontweight="bold">Var. VI</rend></label>
+                     <label xml:id="lq5mx47">
+                        <rend xml:id="rfgdrf4" fontsize="large" fontweight="bold">Var. VI.</rend>
+                     </label>
                      <staffDef xml:id="swda11f1" lines="5" n="1">
                         <clef xml:id="c8fph8n2" line="2" shape="G"/>
                      </staffDef>
@@ -8422,7 +8425,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s91u1bk1">
-                  <sb xml:id="srp954r1"/>
                   <pb xml:id="ptw0f071" facs="#snrh2ue1" n="8"/>
                   <measure xml:id="m7grqzn2" facs="#zo4596q2" label="230" metcon="false" n="230">
                      <staff xml:id="s9tokul2" n="1">
@@ -9443,7 +9445,9 @@
                   <meterSig xml:id="m84pgsu1" count="6" unit="8"/>
                   <staffGrp xml:id="s5fki5c1" bar.thru="true">
                      <grpSym xml:id="ghbjib41" symbol="brace"/>
-                     <label xml:id="loq6ln4"><rend fontsize="large" fontweight="bold">Var. VII</rend></label>
+                     <label xml:id="loq6ln4">
+                        <rend xml:id="rn3f0ep1" fontsize="large" fontweight="bold">Var. VII.</rend>
+                     </label>
                      <staffDef xml:id="st2jz7d" lines="5" n="1">
                         <clef xml:id="cdtrvja1" line="2" shape="G"/>
                      </staffDef>
@@ -9788,7 +9792,6 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb xml:id="sm1zhd91"/>
                   <pb xml:id="puppp4p2" facs="#sm1izxc1" n="9"/>
                   <measure xml:id="mwk3rg3" facs="#zfbsrsv1" label="280" n="280">
                      <staff xml:id="s667i3d" n="1">
@@ -10824,7 +10827,9 @@
                   <meterSig xml:id="mpn2vpd" count="2" unit="4"/>
                   <staffGrp xml:id="s3h1wi71" bar.thru="true">
                      <grpSym xml:id="gzhpar41" symbol="brace"/>
-                     <label xml:id="lqhqd9i2"><rend fontsize="large" fontweight="bold">Var. VIII</rend></label>
+                     <label xml:id="lqhqd9i2">
+                        <rend xml:id="rqio4zf1" fontsize="large" fontweight="bold">Var. VIII.</rend>
+                     </label>
                      <staffDef xml:id="sk9ar3t1" lines="5" n="1">
                         <clef xml:id="cp9yqt81" line="2" shape="G"/>
                      </staffDef>
@@ -10834,7 +10839,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s2isku61">
-                  <sb xml:id="sc7nt401"/>
                   <pb xml:id="pz6yqcs1" facs="#szgp3we1" n="10"/>
                   <measure xml:id="m8vh9ib1" facs="#ziysue91" label="309" metcon="false" n="309">
                      <staff xml:id="sxe01ls1" n="1">
@@ -11975,7 +11979,9 @@
                   <meterSig xml:id="mntlb5f" count="2" unit="4"/>
                   <staffGrp xml:id="sp2u6jf" bar.thru="true">
                      <grpSym xml:id="g03n9wx2" symbol="brace"/>
-                     <label xml:id="lhdj9ek2"><rend fontsize="large" fontweight="bold">Var. IX</rend></label>
+                     <label xml:id="lhdj9ek2">
+                        <rend xml:id="ryy1v6j1" fontsize="large" fontweight="bold">Var. IX.</rend>
+                     </label>
                      <staffDef xml:id="sbnevek2" lines="5" n="1">
                         <clef xml:id="c7ue5vd1" line="2" shape="G"/>
                      </staffDef>
@@ -11985,7 +11991,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="stgof1a">
-                  <sb xml:id="s09wnay2"/>
                   <pb xml:id="pe3fbxh1" facs="#snp6vpy1" n="11"/>
                   <measure xml:id="mmss34q1" facs="#zkt3bok1" label="347" metcon="false" n="347">
                      <staff xml:id="s2eeusj2" n="1">
@@ -13224,7 +13229,9 @@
                   <meterSig xml:id="m0654va" count="2" unit="4"/>
                   <staffGrp xml:id="saw8int1" bar.thru="true">
                      <grpSym xml:id="g09pw2r1" symbol="brace"/>
-                     <label xml:id="lrhnfpm1"><rend fontsize="large" fontweight="bold">Var. X</rend></label>
+                     <label xml:id="lrhnfpm1">
+                        <rend xml:id="r9f0uak2" fontsize="large" fontweight="bold">Var. X.</rend>
+                     </label>
                      <staffDef xml:id="s00dxyc" lines="5" n="1">
                         <clef xml:id="cj3mwbc1" line="2" shape="G"/>
                      </staffDef>
@@ -13234,7 +13241,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="skh2h2b1">
-                  <sb xml:id="si4tfgg"/>
                   <pb xml:id="p3qrmrd" facs="#s64cjvd1" n="12"/>
                   <measure xml:id="mgzo8ab1" facs="#zjtruwt2" label="385" metcon="false" n="385">
                      <staff xml:id="sa0fsmg" n="1">
@@ -14509,7 +14515,9 @@
                   <meterSig xml:id="mxc445a1" count="6" unit="8"/>
                   <staffGrp xml:id="ss4rn4h" bar.thru="true">
                      <grpSym xml:id="g76hr0g1" symbol="brace"/>
-                     <label xml:id="lnezrj9"><rend fontsize="large" fontweight="bold">Var. XI</rend></label>
+                     <label xml:id="lnezrj9">
+                        <rend xml:id="ra8bcej1" fontsize="large" fontweight="bold">Var. XI.</rend>
+                     </label>
                      <staffDef xml:id="s7nf8a11" lines="5" n="1">
                         <clef xml:id="c0y3x82" line="2" shape="G"/>
                      </staffDef>
@@ -14519,7 +14527,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="sew3bew1">
-                  <sb xml:id="shm3f6r1"/>
                   <pb xml:id="pvvffj11" facs="#smqjs3a" n="13"/>
                   <measure xml:id="m5gyhza1" facs="#za1cxru1" label="423" metcon="false" n="423">
                      <staff xml:id="simxcu8" n="1">
@@ -15970,7 +15977,9 @@
                   <meterSig xml:id="msrghge1" count="4" unit="4"/>
                   <staffGrp xml:id="swnvyhu1" bar.thru="true">
                      <grpSym xml:id="g3pi9s51" symbol="brace"/>
-                     <label xml:id="l8e71g11"><rend fontsize="large" fontweight="bold">Var. XII</rend></label>
+                     <label xml:id="l8e71g11">
+                        <rend xml:id="rjn20db1" fontsize="large" fontweight="bold">Var. XII.</rend>
+                     </label>
                      <staffDef xml:id="svytcm31" lines="5" n="1">
                         <clef xml:id="civvog5" line="2" shape="G"/>
                      </staffDef>
@@ -15980,7 +15989,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s6hnb1e1">
-                  <sb xml:id="saq44mr1"/>
                   <pb xml:id="plu1i1h1" facs="#s1pphp91" n="14"/>
                   <measure xml:id="mhmxapv2" facs="#zylnex31" label="461" metcon="false" n="461">
                      <staff xml:id="sveho5x2" n="1">
@@ -17206,7 +17214,6 @@
                      <dynam xml:id="dd0f4i81" place="below" staff="2" startid="#n5rnage">p</dynam>
                      <slur xml:id="s15a1lf" endid="#noos9x01" staff="2" startid="#n5rnage"/>
                   </measure>
-                  <sb xml:id="sx25r27"/>
                   <pb xml:id="pj63zy71" facs="#szh3yd71" n="15"/>
                   <measure xml:id="m8u54m6" facs="#zyuphci1" label="484" n="485">
                      <staff xml:id="srwk39o2" n="1">
@@ -18525,7 +18532,9 @@
                   <meterSig xml:id="mdo09wu1" count="4" unit="4"/>
                   <staffGrp xml:id="sj5zeix2" bar.thru="true">
                      <grpSym xml:id="gngyhvm1" symbol="brace"/>
-                     <label xml:id="l89i6re1"><rend fontsize="large" fontweight="bold">Var. XIII</rend></label>
+                     <label xml:id="l89i6re1">
+                        <rend xml:id="r9kpjnp1" fontsize="large" fontweight="bold">Var. XIII.</rend>
+                     </label>
                      <staffDef xml:id="sge7yse" lines="5" n="1">
                         <clef xml:id="cvzvuzh1" line="2" shape="G"/>
                      </staffDef>
@@ -18535,7 +18544,6 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="stbcn981">
-                  <sb xml:id="stl3btc"/>
                   <pb xml:id="psorag61" facs="#sy9adt01" n="16"/>
                   <measure xml:id="ms001pf1" facs="#zkczgqg" label="515" metcon="false" n="516">
                      <staff xml:id="skkek3v2" n="1">
