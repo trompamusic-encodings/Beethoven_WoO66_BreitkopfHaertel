@@ -38,7 +38,7 @@
             <application xml:id="a7rdhav2" version="1.0.2">
                <name xml:id="nf6on0u1">Deep Optical Measure Detector</name>
             </application>
-            <application xml:id="adlx6tb" enddate="2026-11-24T21:58:58" version="1.6.3">
+            <application xml:id="adlx6tb" enddate="2026-11-25T13:29:11" version="1.6.3">
                <name xml:id="nhiovud">mei-friend</name>
                <p xml:id="pzd1wwb1">Measure zones corrected (trompamusic-encodings/Beethoven_WoO66_BreitkopfHaertel, img/measure_annotations.xml).</p>
             </application>
@@ -1920,6 +1920,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="scxrr601">
+                  <sb xml:id="s3t2m221"/>
                   <pb xml:id="p9ckrzi1"/>
                   <measure xml:id="mt27oym2" facs="#zxrtaog1" label="39" metcon="false" n="39">
                      <staff xml:id="sv4vl9f1" n="1">
