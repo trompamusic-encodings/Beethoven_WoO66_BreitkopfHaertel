@@ -38,7 +38,7 @@
             <application xml:id="a7rdhav2" version="1.0.2">
                <name xml:id="nf6on0u1">Deep Optical Measure Detector</name>
             </application>
-            <application xml:id="adlx6tb" enddate="2026-11-25T14:19:14" version="1.6.3">
+            <application xml:id="adlx6tb" enddate="2026-11-25T14:20:30" version="1.6.3">
                <name xml:id="nhiovud">mei-friend</name>
                <p xml:id="pzd1wwb1">Measure zones corrected (trompamusic-encodings/Beethoven_WoO66_BreitkopfHaertel, img/measure_annotations.xml).</p>
             </application>
@@ -4801,7 +4801,7 @@
                      <staff xml:id="sdigl9t1" n="1">
                         <layer xml:id="l1wkglz2" n="1">
                            <space xml:id="sjquv5r2" dur="4"/>
-                           <note dur="4" xml:id="nt7ep34" oct="4" pname="b"/>
+                           <note xml:id="nt7ep34" dur="4" oct="4" pname="b"/>
                         </layer>
                         <layer xml:id="lmzp4qf" n="2">
                            <note xml:id="nm4g4wv2" dur="4" oct="4" pname="b"/>
@@ -5322,7 +5322,7 @@
                               <note xml:id="n5nwjw31" dur="16" oct="4" pname="g">
                                  <accid xml:id="a957q39" accid="n"/>
                               </note>
-                              <note xml:id="nkbd5bk2" accid.ges="s" dur="16" oct="4" pname="g">
+                              <note xml:id="nkbd5bk2" dur="16" oct="4" pname="g">
                                  <accid xml:id="anak6bn2" accid="s"/>
                               </note>
                            </beam>
@@ -5583,7 +5583,6 @@
                   </measure>
                   <sb xml:id="sx9c0xl1"/>
                   <measure xml:id="mpwj9mc1" facs="#zr3d5xc1" label="148" n="148">
-                     <slur xml:id="se248sq2" endid="#nmvn4px2" staff="1" startid="#cnwjoc01"/>
                      <staff xml:id="s6apfqt2" n="1">
                         <layer xml:id="lcc7pxj1" n="1">
                            <note xml:id="nsatr16" dur="8" oct="5" pname="a">
@@ -5660,18 +5659,17 @@
                      </staff>
                   </measure>
                   <measure xml:id="m46e72l2" facs="#zhs9nsn1" label="150" n="150">
-                     <slur xml:id="sl7jbwn2" endid="#nf7e8nn1" staff="1" startid="#cjlul9u2"/>
                      <staff xml:id="symlq5k2" n="1">
                         <layer xml:id="lut52ib1" n="1">
                            <note xml:id="njhhh1c" dur="8" oct="4" pname="a"/>
                            <beam xml:id="b828ir61">
-                              <note xml:id="nq9pewd1" dur="8" oct="4" pname="f"/>
+                              <note xml:id="nq9pewd1" accid.ges="s" dur="8" oct="4" pname="f"/>
                               <note xml:id="nj3c2mw2" dur="8" oct="4" pname="e"/>
                            </beam>
                            <note xml:id="nf7e8nn1" dur="8" oct="4" pname="a">
                               <artic xml:id="ar0xet5" artic="stacc" place="above"/>
                            </note>
-                           </layer>
+                        </layer>
                         <layer xml:id="ltqshud1" n="2">
                            <space xml:id="s9djdvc1" dur="8"/>
                            <note xml:id="nxnmr09" dur="4" oct="3" pname="a"/>
@@ -5704,7 +5702,7 @@
                            </note>
                         </layer>
                         <layer xml:id="lzlubqo1" n="2">
-                           <note xml:id="n21o6lu1" accid.ges="s" oct="4" pname="c" dur="8"/>
+                           <note xml:id="n21o6lu1" accid.ges="s" dur="8" oct="4" pname="c"/>
 
                            <beam xml:id="b702hi41">
                               <tuplet xml:id="t2ftwnj1" bracket.visible="false" num="3" num.place="above" num.visible="true" numbase="2">
